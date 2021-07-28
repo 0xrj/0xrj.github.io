@@ -15,6 +15,13 @@
                 {% endunless %}
               {% endfor %}
             </ul>
+            <ul class="social-profiles list-reset">
+                   {% if site.twitter %}
+                  <li class="social-profiles-item">
+                    <a href="{{ site.twitter }}" class="social-profiles-link"><i class="ion ion-logo-twitter"></i></a>
+                  </li>
+                  {% else %} {% endif %}
+            </ul>
           </nav>
           <div class="logo-title">
             <a href="{{site.baseurl}}/" class="logo-text">0xrj</a>
