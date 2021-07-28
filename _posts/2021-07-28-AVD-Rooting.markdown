@@ -8,8 +8,7 @@
 
 It's a pretty easy task to setup an avd device. But for a security enthusiast, a rooted android device is essential to perform dynamic assessments of android application. 
 
-While many use genymotion (a pre-rooted Android Virtual device), Here we setup an rooted Android Studio Emulator. If you are a newbie to the android pentesting and looking for setting up an virtual device, ou are 
-at the right place. Just follow the steps i mentioned in this post.
+While many use genymotion (a pre-rooted Android Virtual device), Here we setup an rooted Android Studio Emulator. If you are a newbie to the android pentesting and looking for setting up an virtual device, you are at the right place. Just follow the steps i mentioned in this post.
 
 NOTE: Enabling root is not the only task you have it is also important to maintain __Root Persistence__ in your avd devices. So make sure you read and follow till the end && su binary you are downloading must match your emulator device architecture
 
@@ -24,7 +23,7 @@ Turn on your system virtualization options.
 Download latest version of android studio.
 
 Add Sdk to your path __emulator and platform-tools__ must needed to be in path for this setup 
-* In __windows__ the default path when you install Android studio in Home folder is `C:\Users\{% username %}\AppData\Local\Android\Sdk`
+* In __windows__ the default path when you install Android studio in Home folder is `C:\Users\username\AppData\Local\Android\Sdk`
 * In __Linux__ based os the default directory is `$HOME/Android/Sdk`
 You can set path in Linux using command - 
 ```bash 
@@ -45,8 +44,8 @@ All set your device is created.
 You can launch your avd through cli by command 
 <small> If path is configured </small>
 ```bash
-Linux: emulator -avd {% Device Name %}
-Windows: emulator.exe -avd {% Device Name %}
+Linux: emulator -avd Device Name
+Windows: emulator.exe -avd Device Name
 ```
 
 ---
