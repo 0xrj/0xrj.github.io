@@ -11,14 +11,23 @@ Timothy "Tim" Templeton, an imaginative 7-year-old boy, relishes his parents' at
 One day, Baby holds a staff meeting with other toddlers and infants, under the guise of a neighborhood play date. Timothy attempts to record them on a cassette tape, but he is seen and chased by Baby and his cronies. The parents see this as the children playing in the yard. When Baby destroys one of Tim's favorite toys, Tim attempts to slingshot him out a window, but his parents stop him and he accidentally slingshots the tape into the street, where a car smashes it. Tim and Baby are grounded until they learn to get along.
 
 ```python
-import hell
-import heaven
+import focus
+import interest
 
-def BossBaby():
-  pass
+def outsider():
+  print('This is 0xrj, Welcome to my place')
+  print('Check out my work right below')
+  print('You can get me in twitter @0xrj_')
+  
+def matey():
+  print('Welcome again! Thanks for your love')
+  print('Check out my latest blog, cheers!')
   
 def main():
-  BossBaby()
+  if visiter not following 0xrj:
+    outsider()
+    exit(0)
+  matey()
   
 if '__name__' == '__main__':
   main()
