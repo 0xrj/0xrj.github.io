@@ -1,0 +1,35 @@
+---
+  layout: post
+  title: Boss Baby
+  date: 2021-07-28 16:04:00 +0300
+  image: 010.png
+  tags: [Cartoon]
+---
+
+Timothy "Tim" Templeton, an imaginative 7-year-old boy, relishes his parents' attention and is horrified when a new baby brother arrives. Baby, whom Tim saw arrive in a taxi, clad in suit and tie, and carrying a briefcase, behaves normally around the adults, crying for attention and food and diapers all day and night. However, Tim, who is fast growing jealous, sees Baby talking in an adult voice and behaving like an adult whenever Mr. and Mrs. Templeton aren't looking.
+
+One day, Baby holds a staff meeting with other toddlers and infants, under the guise of a neighborhood play date. Timothy attempts to record them on a cassette tape, but he is seen and chased by Baby and his cronies. The parents see this as the children playing in the yard. When Baby destroys one of Tim's favorite toys, Tim attempts to slingshot him out a window, but his parents stop him and he accidentally slingshots the tape into the street, where a car smashes it. Tim and Baby are grounded until they learn to get along.
+
+```python
+import hell
+import heaven
+
+def BossBaby():
+  pass
+  
+def main():
+  BossBaby()
+  
+if '__name__' == '__main__':
+  main()
+```
+
+Baby makes Tim suck a special pacifier that allows them to see Baby Corp, where babies come from. Most babies go to families, but those who don't respond to tickling are sent to management, where they are given a special baby formula that allows them to think and behave as adults while remaining young forever. Baby also explains he's on a special mission to discover why the world's love of babies is being threatened lately by love of puppies, and came to the Templetons because Tim's Parents work for Puppy Co. Once his mission is done, he will leave. However, the boys overhear Baby's superiors threatening to fire him, should he fail. As that would mean Baby would have to stay with the Templetons and grow up, Tim and Baby agree to work together to prevent this.
+
+On Family Day, the Templetons take Tim and Baby with them to Puppy Co., where the boys sneak away to investigate. They are captured by Francis, the CEO of Puppy Co. Francis reveals he was the Boss of Baby Corp once, but started to slowly grow up because he was partially intolerant to the formula. He was fired and forced to live with a hillbilly family, but saved his magic pacifier. He steals Baby's formula, intending to use it to make a "Forever Puppy" that never grows up or dies, which will take all love from babies and give him his revenge on BabyCorp.
+
+Francis whisks Tim's parents away to a conference in Las Vegas, and leaves his brother Eugene to watch the children in the guise of a female nanny. Without the formula, Baby starts to periodically revert to normal infant behavior. The boys, with help from the neighborhood toddlers, escape Eugene and head to Las Vegas, where they find Francis ready to send a rocket of Forever Puppies out into the world. Mr. and Mrs. Templeton suspect something is wrong when they hear their children, and are locked up underneath the rocket to be burned. Tim and Baby fight Francis on a raised walkway, pretending to be pirates; they knock him into the vat of augmented formula, where he turns back into a baby and is taken home by Eugene. Tim saves his parents, but Baby goes completely infantile and is stranded on the rocket, which is about to launch. Tim sings a lullaby, and Baby jumps to him and is revived by the formula.
+
+Baby is taken back to Baby Corp and promoted, while all traces of him are erased from the parents' house and minds. However, he and Tim miss each other terribly, and Tim finally invites Baby back, saying if there is only love enough for one of them, Baby can have it all. Realizing that love is something that grows, instead of being split, Baby returns, this time as a normal infant boy named Theodore "Ted" Templeton.
+
+Years later, an adult Tim and Ted tell the story to Tim's elder daughter, who is apprehensive about the arrival of her new baby sister. After the adults leave, the newborn little girl reveals she is a Boss Baby, too, exciting Tim's elder daughter. 
