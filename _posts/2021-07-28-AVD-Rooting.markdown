@@ -26,6 +26,7 @@ Add Sdk to your path __emulator and platform-tools__ must needed to be in path f
 * In __windows__ the default path when you install Android studio in Home folder is `C:\Users\username\AppData\Local\Android\Sdk`
 * In __Linux__ based os the default directory is `$HOME/Android/Sdk`
 You can set path in Linux using command - 
+
 ```bash 
 export PATH=$PATH:$HOME/Android/Sdk/emulator:$HOME/Android/Sdk/platform-tools
 ```
@@ -43,6 +44,7 @@ export PATH=$PATH:$HOME/Android/Sdk/emulator:$HOME/Android/Sdk/platform-tools
 All set your device is created.
 You can launch your avd through cli by command 
 <small> If path is configured </small>
+
 ```bash
 Linux: emulator -avd Device Name
 Windows: emulator.exe -avd Device Name
@@ -57,11 +59,14 @@ If all good till now, we can start process of rooting it.
 Download __su binary of your device's architecture__ from [here](https://github.com/0xFireball/root_avd/tree/master/SuperSU)
 
 Start your emulator by command
+
 ```bash
 $ emulator -avd testAVD -writable-system
 $ adb root && adb remount
 ```
+
 This opens a root shell of your android device. Now follow the commands -
+
 ```bash
 # cp /sdcard/Download/su /system/xbin/su
 # chmod 06755 /system/xbin/su
@@ -69,8 +74,10 @@ This opens a root shell of your android device. Now follow the commands -
 # su --daemon&
 # setenforce 0
 ```
+
 Install [Superuser](https://supersu.en.uptodown.com/android) android application into your avd. Supersu app allows you to enable root.
 Download __Root-Checker app__ [here](https://root-checker.en.uptodown.com/android)
+
 ```bash
 $ adb install supersu.apk 
 $ adb install root-checker.apk
@@ -96,6 +103,7 @@ open AVD manager and select __settings__ > __show Advanced settings__ > __Emulat
 This will make sure that your device always boot with the saved snapshot with root.
 
 Always start your emulator from terminal/cmd with
+
 ```bash
 Linux: emulator -avd testAVD -writable-system
 Windows: emulator.exe -avd testAVD -writable-system
