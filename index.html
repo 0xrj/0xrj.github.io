@@ -3,24 +3,36 @@ layout: default
 ---
 <div class="container">
 	<div class="row">
-	{% if site.posts.size > 0 %}
-		{%- for post in paginator.posts -%}
-		{% if forloop.index <= 1 %}
 		<div class="col col-12">
 			<article class="article-first">
-				<div class="article-image-first" style="background-image: url({{"/img/" | prepend: site.baseurl | append : post.image}})">
-					<div class="article-content-first">
-						<div class="article-tag">
-						{% if post.tags.size >= 1 %}
-							{% for tag in post.tags %}
-							<a href="{{ site.baseurl }}/tags#{{tag}}" class="tag">{{ tag }}</a>
-							{% endfor %}
-						{% else %} {% endif %}
-						</div>
-						<h2 class="article-title"><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h2>
-						<p class="article-excerpt">{% if post.description %}{{ post.description | strip_html | truncate: 163 }}{% else %}{{ post.content | strip_html | truncate: 163 }}{% endif %}</p>
-						<a href="{{ post.url | prepend: site.baseurl }}" class="button read-more">Read More</a>
-					</div>
+				<div class="article-image-first" style="background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.18), rgb(0, 0, 0)), url(/img/about.jpg),url('/img/about.jpg'); ">
+					<div class="hero__content" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; width: 100%; max-width: 650px; padding: 0 20px; text-align: center;">
+            <h1 class="hero__title">0xrj</h1>
+            <p class="hero__desc">Nothing as for now</p>
+            <br>
+             <div class="social">
+              <ul class="social__list list-reset">
+
+                <li class="social__item">
+                  <a class="social__link" href="https://github.com/0xrj" aria-label="social icon"><i class="ion ion-logo-github"></i></a>
+                </li>
+
+                <li class="social__item">
+                  <a class="social__link" href="https://twitter.com/0xrj_" aria-label="social icon"><i class="ion ion-logo-twitter"></i></a>
+                </li>
+               <!-- <li class="social__item">
+                  <a class="social__link" href="https://hackerone.com/0xrj" aria-label="social icon"><i class="ion ion-ios-trophy"></i></a>
+                </li>
+
+                <li class="social__item">
+                  <a class="social__link" href="https://bugcrowd.com/0xrj" aria-label="social icon"><i class="ion ion-ios-bug"></i></a>
+                </li>-->
+
+              </ul>
+            </div>				
+
+</div>
+					
 				</div>
 			</article> <!-- /.article-first -->
 		</div>
