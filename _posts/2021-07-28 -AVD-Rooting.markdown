@@ -2,8 +2,8 @@
   layout: post
   title: Boss Baby
   date: 2021-07-28 16:04:00 +0300
-  image: 010.png
-  tags: [Cartoon]
+  image: Post1.0.png
+  tags: [Android]
 ---
 
 It's a pretty easy task to setup an avd device. But for a security enthusiast, a rooted android device is essential to perform dynamic assessments of android application. 
