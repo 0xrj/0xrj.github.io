@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Boss Baby
+  title: AVD ROOTING
   date: 2021-07-28 16:04:00 +0300
   image: Post1.0.png
   tags: [Android]
