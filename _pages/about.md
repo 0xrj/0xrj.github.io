@@ -19,7 +19,7 @@ contact me at [twitter](https://twitter.com/0xrj_ "twitter @0xrj_")
 
 while [ youAreAlive ]
 do
-  sh whatYouLike.sh
+  sh doWhatYouLike.sh
   sh loveWhatyouDo.sh
   sh keepLearningThings.sh
 done
