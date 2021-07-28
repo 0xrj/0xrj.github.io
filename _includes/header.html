@@ -5,7 +5,7 @@
         <div class="header-box">
           <nav class="nav-menu">
             <i class="menu-close ion ion-ios-close"></i>
-            <ul class="menu-list">
+            <ul class="menu-list" style="display: inline-block;">
               <li class="menu-item"><a href="{{site.baseurl}}/" class="menu-link">Home</a></li>
               {% for page in site.pages %}
                 {% unless page.name == 'tags.html' or page.name == '404.html' %}
@@ -14,13 +14,16 @@
               {% endif %}
                 {% endunless %}
               {% endfor %}
-            </ul>
-            <ul class="social-profiles list-reset">
-                   {% if site.twitter %}
+              {% if site.twitter %}
                   <li class="social-profiles-item">
                     <a href="{{ site.twitter }}" class="social-profiles-link"><i class="ion ion-logo-twitter"></i></a>
                   </li>
-                  {% else %} {% endif %}
+              {% else %} {% endif %}
+              {% if site.github %}
+                  <li class="social-profiles-item">
+                    <a href="{{ site.github }}" class="social-profiles-link"><i class="ion ion-logo-github"></i></a>
+                  </li>
+              {% else %} {% endif %}
             </ul>
           </nav>
           <div class="logo-title">
