@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: €X00 Bounty: Logic flaw.
+  title: €X00 Bounty! Broken Access Control.
   date: 2022-04-26 23:02:00 +0300
   image: bac.png
   tags: [BugBounty]
