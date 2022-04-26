@@ -1,0 +1,33 @@
+---
+  layout: post
+  title: €X00 Bounty: Logic flaw.
+  date: 2022-04-26 23:02:00 +0300
+  image: bac.png
+  tags: [BugBounty]
+---
+Hello fellow bug hunters & security enthusiasts, this is [0xrj](https://twitter.com/0xrj_) with my very first bug finding writeup which made €X00 within no time 😋.
+
+### Broken Access Control:
+>Access control enforces policy such that users cannot act outside of their intended permissions. Failures typically lead to unauthorized information disclosure, modification, or destruction of all data or performing a business function outside the user's limits.
+---
+
+Into finding...
+
+It happend when I was testing a public program (a social media application which almost provides all features as twitter). 
+Intitially I started with understanding application, focusing on observing the limitations set to a general user and trying to bypass them.
+
+At signup endpoint, It is observed that an user was limited to signup with a specific domain's email address. The flow of signup page led to bypass the check. Here is how it works
+
++ User give an allowed email domain address and signup to the application.
++ An immediate confirmation mail sent to registered mail id.
++ There is an option to update account's mail address without verifying the account.
+
+I was like does the check for allowed mail id's implemented at updation page 🧐? umm... it's not.
+
+I've reported this as Broken Access Control vulnerability to the organization and landed a X00 euro bounty and closed the report with no fix 🥲.
+
+---
+**Takeaways**: It was always good to start analysing applications logics, flows, limitations as these require manual involvement and intelligence.
+
+Do share if it seems to be useful. \
+See you again, Thankyou.
