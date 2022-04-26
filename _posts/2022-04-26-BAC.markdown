@@ -1,7 +1,7 @@
 ---
   layout: post
   title: €X00 Bounty! Broken Access Control.
-  date: 2022-04-26 23:02:00 +0300
+  date: 2022-04-27 00:40:00 +0300
   image: bac.png
   tags: [BugBounty]
 ---
